@@ -10,6 +10,8 @@
   --color-flora-light: #eeeeee;
 
   --color-flora-dark: #2a2c24;
+
+  --font-oswald: font-family(var(--font-oswald), sans-serif);
 }
 
 html,

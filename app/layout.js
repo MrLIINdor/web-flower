@@ -1,11 +1,11 @@
-import { Roboto } from 'next/font/google'
+import { Oswald } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/header/header'
 
-const fontRoboto = Roboto({
-  weight: ['300', '700'],
+const fontOswald = Oswald({
   subsets: ['latin', 'cyrillic'],
-  variable: '--font-roboto',
+  weight: ['400', '700'],
+  variable: '--font-oswald',
 })
 
 export const metadata = {
@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru" className={`${fontRoboto.variable} h-full`}>
+    <html lang="ru" className={`${fontOswald.variable} h-full`}>
       <body className="bg-flora-sandfarben text-flora-dark flex min-h-full flex-col">
         <Header />
         {children}

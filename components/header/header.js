@@ -25,7 +25,7 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="font-roboto hidden items-center gap-8 text-sm font-medium md:flex">
+        <nav className="font-oswald hidden items-center gap-8 font-medium md:flex">
           {links.map((link) => (
             <Link key={link.name} href={link.href} className="text-flora-dark/70 hover:text-flora-accent transition-colors duration-300">
               {link.name}
@@ -70,7 +70,7 @@ export default function Header() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="border-flora-dark/5 from-flora-gray/95 to-flora-gray/80 hover:border-flora-accent/20 absolute top-20 right-4 z-50 w-60 overflow-hidden rounded-3xl border bg-gradient-to-b shadow-xl backdrop-blur-xl md:hidden"
+            className="font-oswald border-flora-dark/5 from-flora-gray/95 to-flora-gray/80 hover:border-flora-accent/40 absolute top-20 right-4 z-50 w-60 overflow-hidden rounded-3xl border bg-gradient-to-b shadow-xl backdrop-blur-xl md:hidden"
           >
             <motion.nav initial={{ y: -10 }} animate={{ y: 0 }} transition={{ delay: 0.05, duration: 0.2 }} className="flex flex-col space-y-4 p-6">
               {links.map((link) => (
