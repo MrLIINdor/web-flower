@@ -10,12 +10,12 @@ export default function Header() {
 
   const links = [
     { name: 'Главная', href: '/' },
-    { name: 'Букеты', href: '/about' },
+    { name: 'О нас', href: '/about' },
     { name: 'Контакты', href: '/contacts' },
   ]
 
   return (
-    <header className="bg-flora-sandfarben text-flora-dark border-flora-dark/5 bg-flora-sandfarben/80 relative top-0 z-50 border-b px-6 py-5 backdrop-blur-md">
+    <header className="bg-flora-sandfarben text-flora-dark border-flora-dark/5 bg-flora-sandfarben/80 relative top-0 z-50 px-6 py-5 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Flower size={30} className="text-flora-accent" />

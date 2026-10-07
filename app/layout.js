@@ -1,6 +1,7 @@
 import { Oswald } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/header/header'
+import Footer from '@/components/footer/footer'
 
 const fontOswald = Oswald({
   subsets: ['latin', 'cyrillic'],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className="bg-flora-sandfarben text-flora-dark flex min-h-full flex-col">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
