@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Eye, Leaf, ShieldCheck, Heart } from 'lucide-react'
+import { Eye, Leaf, ShieldCheck, Heart, BadgePercent } from 'lucide-react'
 
 export default function PageAbout() {
   const stats = [
@@ -66,7 +66,7 @@ export default function PageAbout() {
           >
             <div className="flex items-center gap-3">
               <div className="bg-flora-sandfarben border-flora-dark/5 text-flora-accent w-fit rounded-xl border p-2.5 shadow-sm">
-                <Heart size={20} />
+                <BadgePercent size={20} />
               </div>
 
               <span className="text-flora-dark/40 font-mono font-sans text-xs tracking-wider uppercase">В цифрах</span>
