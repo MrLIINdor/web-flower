@@ -15,7 +15,7 @@ export default function NotFound() {
           initial={{ opacity: 0, scale: 0.95, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.5, ease: 'easeOut' }}
-          className="group border-flora-dark/5 from-flora-gray/30 to-flora-gray/5 hover:border-flora-accent/20 relative flex aspect-square w-full flex-col justify-between overflow-hidden rounded-3xl border bg-gradient-to-b p-8 shadow-xl transition-colors duration-500"
+          className="group border-flora-dark/5 from-flora-gray/30 to-flora-gray/5 hover:border-flora-accent/20 relative flex w-full flex-col justify-between overflow-hidden rounded-3xl border bg-gradient-to-b p-8 shadow-xl transition-colors duration-500"
         >
           <div className="text-flora-dark group-hover:text-flora-accent pointer-events-none absolute -right-14 -bottom-14 opacity-5 transition-all duration-700 group-hover:opacity-10">
             <Flower size={320} />
